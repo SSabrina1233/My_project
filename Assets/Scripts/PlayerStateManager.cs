@@ -53,6 +53,11 @@ public class PlayerStateManager : MonoBehaviour
     {
         currentState.UpdateState(this);
 
+        if(secondPlayer == null)
+        { 
+            return;
+        }
+       
         secondPlayerCurrentState = secondPlayer.gameObject.GetComponent<PlayerStateManager>().currentState;
 
         if (inRange)
@@ -73,13 +78,16 @@ public class PlayerStateManager : MonoBehaviour
             }
             if (currentState.ReturnState(this) != secondPlayerCurrentState.ReturnState(this))
             {
-                if (distance >= 2f)
+                if (distance <= 2f)
                 {
+                    this.gameObject.GetComponent<PlayerController>().attach(secondPlayer);
+                    return;
                     
-                    this.gameObject.GetComponent<PlayerController>().attract(rawDirection, attractionStrength);
                 }
-                
-                
+
+                this.gameObject.GetComponent<PlayerController>().attract(rawDirection, attractionStrength, distance);
+
+
             }
         }
 

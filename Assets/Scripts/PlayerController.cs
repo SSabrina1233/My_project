@@ -27,7 +27,8 @@ public class PlayerController : MonoBehaviour
     public float maxDistance = 2f;
 
     public Vector3 mergeOffset;
-    //private bool canMove = true;
+    private bool canMove = true;
+    private bool merged = true;
 
     //Animator
     Animator anim;
@@ -78,8 +79,12 @@ public class PlayerController : MonoBehaviour
 
         PlayerMovementInput = new Vector3(movementInput.x, 0f, movementInput.y);
 
-        Move();
-        MoveAnimation();
+       
+        if (canMove)
+        {
+            Move();
+            MoveAnimation();
+        }
 
         transform.Rotate(Vector3.up * lookInput.x * sensitivity);
         //lookRotation += (-lookInput.y * sensitivity);
@@ -132,18 +137,18 @@ public class PlayerController : MonoBehaviour
 
     public void repel(Vector3 rawDirection, float attractionStrength)
     {
-
         rb.AddForce(rawDirection.normalized * attractionStrength, ForceMode.Force);
         Debug.Log("Push away");
     }
 
-    public void attract(Vector3 rawDirection, float attractionStrength)
+    public void attract(Vector3 rawDirection, float attractionStrength, float distance)
     {
+        //deactivate rb
+        //rb.isKinematic = false;
 
-        //Vector3.MoveTowards(followingPlayer.transform.position, playerToFollow.transform.position, maxDistance);
-        //Rigidbody rbForce = followingPlayer.GetComponent<Rigidbody>();
+        //transform.position += rawDirection * (attractionStrength * 1 / distance) * Time.deltaTime;
 
-        //rbForce.AddForce(rawDirection.normalized * attractionStrength*(-1), ForceMode.Force);
+       
         rb.AddForce(rawDirection.normalized * attractionStrength * (-1), ForceMode.Force);
         Move();
         Debug.Log("attract");
@@ -155,21 +160,31 @@ public class PlayerController : MonoBehaviour
     }*/
 
 
-    /*private void Detach()
+    private void checkIfMerged()
     {
-        PlayerController.CanMove = true;
+        if (merged)
+        {
+            canMove = false;
+        }
+        if (!merged)
+        {
+            canMove = true;
+        }
+    }
+    private void detach()
+    {
         gameObject.GetComponent<Collider>().enabled = true;
         gameObject.transform.parent = null;
         merged = false;
-    }*/
+    }
 
-    public void Attach()
+    public void attach(GameObject secondPlayer)
     {
         Debug.Log("merged...");
-
-        followingPlayer.transform.position = playerToFollow.transform.position + mergeOffset;
-        followingPlayer.transform.parent = playerToFollow.transform;
+        transform.position = secondPlayer.transform.position + mergeOffset;
+        gameObject.transform.parent = secondPlayer.transform;
 
         gameObject.GetComponent<Collider>().enabled = false;
+        merged = true;
     }
 }
