@@ -78,7 +78,6 @@ public class PlayerController : MonoBehaviour
     {
 
         PlayerMovementInput = new Vector3(movementInput.x, 0f, movementInput.y);
-
        
         if (canMove)
         {
@@ -135,9 +134,19 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    public void repel(Vector3 rawDirection, float attractionStrength)
+    public void repel(Vector3 rawDirection, float attractionStrength, float newAttractionStrength)
     {
-        rb.AddForce(rawDirection.normalized * attractionStrength, ForceMode.Force);
+        if (merged)
+        {
+            rb.mass = 1;
+            rb.useGravity = true;
+            gameObject.transform.parent = null;
+            rb.AddForce(rawDirection.normalized * newAttractionStrength* playerSpeed*3, ForceMode.Impulse);
+            gameObject.GetComponent<Collider>().enabled = true;
+            merged = false;
+            return;
+        }
+        rb.AddForce(rawDirection.normalized * newAttractionStrength * playerSpeed*3, ForceMode.Force);
         Debug.Log("Push away");
     }
 
@@ -149,7 +158,7 @@ public class PlayerController : MonoBehaviour
         //transform.position += rawDirection * (attractionStrength * 1 / distance) * Time.deltaTime;
 
        
-        rb.AddForce(rawDirection.normalized * attractionStrength * (-1), ForceMode.Force);
+        rb.AddForce(rawDirection.normalized * (attractionStrength * playerSpeed) * (-1), ForceMode.Force);
         Move();
         Debug.Log("attract");
     }
@@ -181,6 +190,8 @@ public class PlayerController : MonoBehaviour
     public void attach(GameObject secondPlayer)
     {
         Debug.Log("merged...");
+        rb.useGravity = false;
+        rb.mass = 0;
         transform.position = secondPlayer.transform.position + mergeOffset;
         gameObject.transform.parent = secondPlayer.transform;
 

@@ -69,12 +69,13 @@ public class PlayerStateManager : MonoBehaviour
             float distance = rawDirection.magnitude;
             float distanceScale = Mathf.InverseLerp(range, 0f, distance);
             float attractionStrength = Mathf.Lerp(0f, strength, distanceScale);
-
+            float newAttractionStrength = 1 / distance;
+     
             //Debug.Log(" i am " + secondPlayerDir + " away from other player");
 
             if (currentState.ReturnState(this) == secondPlayerCurrentState.ReturnState(this))
             {
-                this.gameObject.GetComponent<PlayerController>().repel(rawDirection, attractionStrength);
+                this.gameObject.GetComponent<PlayerController>().repel(rawDirection, attractionStrength, newAttractionStrength);
             }
             if (currentState.ReturnState(this) != secondPlayerCurrentState.ReturnState(this))
             {
@@ -119,7 +120,7 @@ public class PlayerStateManager : MonoBehaviour
 
         return secondPlayer;
     }
-
+    
     public void OnTriggerExit(Collider other)
     {
         if (other.gameObject.GetComponent<PlayerDetails>().playerID != this.GetComponent<PlayerDetails>().playerID)
