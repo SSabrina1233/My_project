@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Mac</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{F56A610C-C7C4-F874-B68B-7ADDF94EBB7A}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+		</SoundBank>
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{87A67BA1-81C3-876B-0988-CDE86BE8435D}">
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<Media>
+				<File Id="124479139" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RobotStepsBack-001.wav</ShortName>
+					<CachePath>SFX/RobotStepsBack-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="134654601" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RobotStepsBack-002.wav</ShortName>
+					<CachePath>SFX/RobotStepsBack-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="165584015" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RobotStepsBack-003.wav</ShortName>
+					<CachePath>SFX/RobotStepsBack-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="237786571" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RobotStepsFront-006.wav</ShortName>
+					<CachePath>SFX/RobotStepsFront-006_10C4C929.wem</CachePath>
+				</File>
+				<File Id="326419658" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RobotInit-001.wav</ShortName>
+					<CachePath>SFX/RobotInit-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="517479125" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RobotStepsFront-003.wav</ShortName>
+					<CachePath>SFX/RobotStepsFront-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="866086947" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RobotStepsFront-002.wav</ShortName>
+					<CachePath>SFX/RobotStepsFront-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="911859099" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RobotStepsFront-005.wav</ShortName>
+					<CachePath>SFX/RobotStepsFront-005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="924293820" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RobotStepsFront-001.wav</ShortName>
+					<CachePath>SFX/RobotStepsFront-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="961828617" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RobotStepsFront-004.wav</ShortName>
+					<CachePath>SFX/RobotStepsFront-004_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2964951935" Name="Play_RobotPlayerInit" DurationType="OneShot" DurationMin="3.0735745" DurationMax="4.47923">
+					<MediaRefs>
+						<MediaRef Id="326419658"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="42366423" Name="Play_RobotPlayerStepsBack" DurationType="OneShot" DurationMin="0.04011093" DurationMax="0.10248269">
+					<MediaRefs>
+						<MediaRef Id="124479139"/>
+						<MediaRef Id="134654601"/>
+						<MediaRef Id="165584015"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2892171835" Name="Play_RobotPlayerStepsFront" DurationType="OneShot" DurationMin="0.10992268" DurationMax="0.20928872">
+					<MediaRefs>
+						<MediaRef Id="237786571"/>
+						<MediaRef Id="517479125"/>
+						<MediaRef Id="866086947"/>
+						<MediaRef Id="911859099"/>
+						<MediaRef Id="924293820"/>
+						<MediaRef Id="961828617"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1686535073" Name="Stop_RobotPlayerInit" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{3DD27AB0-512C-418B-395E-98F8E49FA2F2}</FileHash>
+</SoundBanksInfo>

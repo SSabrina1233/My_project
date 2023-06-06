@@ -1,0 +1,18 @@
+Event	ID	Name			Wwise Object Path	Notes
+	42366423	Play_RobotPlayerStepsBack			\Default Work Unit\Play_RobotPlayerStepsBack	
+	1686535073	Stop_RobotPlayerInit			\Default Work Unit\Stop_RobotPlayerInit	
+	2892171835	Play_RobotPlayerStepsFront			\Default Work Unit\Play_RobotPlayerStepsFront	
+	2964951935	Play_RobotPlayerInit			\Default Work Unit\Play_RobotPlayerInit	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	124479139	RobotStepsBack-001	C:\Users\WSOMMER\Documents\GitHub\My_project\My_project_WwiseProject\.cache\Mac\SFX\RobotStepsBack-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\RobotPlayer\RobotPlayerStepsBack\RobotStepsBack-001		10376
+	134654601	RobotStepsBack-002	C:\Users\WSOMMER\Documents\GitHub\My_project\My_project_WwiseProject\.cache\Mac\SFX\RobotStepsBack-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\RobotPlayer\RobotPlayerStepsBack\RobotStepsBack-002		16452
+	165584015	RobotStepsBack-003	C:\Users\WSOMMER\Documents\GitHub\My_project\My_project_WwiseProject\.cache\Mac\SFX\RobotStepsBack-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\RobotPlayer\RobotPlayerStepsBack\RobotStepsBack-003		16304
+	237786571	RobotStepsFront-006	C:\Users\WSOMMER\Documents\GitHub\My_project\My_project_WwiseProject\.cache\Mac\SFX\RobotStepsFront-006_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\RobotPlayer\RobotPlayerStepsFront\RobotStepsFront-006		29228
+	326419658	RobotPlayerInit	C:\Users\WSOMMER\Documents\GitHub\My_project\My_project_WwiseProject\.cache\Mac\SFX\RobotInit-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\RobotPlayer\RobotPlayerInit		711264
+	517479125	RobotStepsFront-003	C:\Users\WSOMMER\Documents\GitHub\My_project\My_project_WwiseProject\.cache\Mac\SFX\RobotStepsFront-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\RobotPlayer\RobotPlayerStepsFront\RobotStepsFront-003		31632
+	866086947	RobotStepsFront-002	C:\Users\WSOMMER\Documents\GitHub\My_project\My_project_WwiseProject\.cache\Mac\SFX\RobotStepsFront-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\RobotPlayer\RobotPlayerStepsFront\RobotStepsFront-002		28268
+	911859099	RobotStepsFront-005	C:\Users\WSOMMER\Documents\GitHub\My_project\My_project_WwiseProject\.cache\Mac\SFX\RobotStepsFront-005_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\RobotPlayer\RobotPlayerStepsFront\RobotStepsFront-005		33344
+	924293820	RobotStepsFront-001	C:\Users\WSOMMER\Documents\GitHub\My_project\My_project_WwiseProject\.cache\Mac\SFX\RobotStepsFront-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\RobotPlayer\RobotPlayerStepsFront\RobotStepsFront-001		32712
+	961828617	RobotStepsFront-004	C:\Users\WSOMMER\Documents\GitHub\My_project\My_project_WwiseProject\.cache\Mac\SFX\RobotStepsFront-004_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\RobotPlayer\RobotPlayerStepsFront\RobotStepsFront-004		28592
+

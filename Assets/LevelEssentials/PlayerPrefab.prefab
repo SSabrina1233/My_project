@@ -16,6 +16,8 @@ GameObject:
   - component: {fileID: 2822108461262458590}
   - component: {fileID: 4145576247670271457}
   - component: {fileID: 1498444340090871623}
+  - component: {fileID: -6820366580252189960}
+  - component: {fileID: -2028317355120117342}
   m_Layer: 0
   m_Name: PlayerPrefab
   m_TagString: Untagged
@@ -229,6 +231,53 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &-6820366580252189960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2822108461262458599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 714d98271eb645a4ea8d178c040fde04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Debug_Enabled: 0
+  robotStart:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 393a5155b110d5943a1cbb79ecf64aaa, type: 2}
+  frontStep:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 90a99b63933bc4545a0611f64f79112b, type: 2}
+  backStep:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 5ef8335dcf4774f40b0f5b669915ab44, type: 2}
+--- !u!114 &-2028317355120117342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2822108461262458599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cde0586ffd458046a68f30dbfa6185e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
 --- !u!1 &4897294123132353826
 GameObject:
   m_ObjectHideFlags: 0
@@ -240,6 +289,8 @@ GameObject:
   - component: {fileID: 5979730823339366508}
   - component: {fileID: 1144062250289658429}
   - component: {fileID: 4180958638016511200}
+  - component: {fileID: 8970770759499711664}
+  - component: {fileID: 3070918178423162760}
   m_Layer: 0
   m_Name: PlayerCamera
   m_TagString: Untagged
@@ -319,6 +370,42 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 2822108461262458599}
   cameraDistance: 5
+--- !u!114 &8970770759499711664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4897294123132353826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cde0586ffd458046a68f30dbfa6185e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
+--- !u!114 &3070918178423162760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4897294123132353826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d98409fb8432da94d953f409bd117481, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDefaultListener: 1
+  listenerId: 0
 --- !u!1001 &5007722249268504616
 PrefabInstance:
   m_ObjectHideFlags: 0
