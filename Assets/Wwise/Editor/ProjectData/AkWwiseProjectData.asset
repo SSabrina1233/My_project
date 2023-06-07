@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 817e7bd1a569994c98578af677deef3a
     GuidInternal: 
-    m_lastTime: -8585155534092651314
+    m_lastTime: -8585154685688024893
     List:
     - name: Main
       guid: d3efc1342fcafc41953692b40b01d90f
@@ -94,8 +94,125 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 75f98e5e68f8964f9265ce7db92b872a
     GuidInternal: 
-    m_lastTime: -8585155547890702713
+    m_lastTime: -8585154606414347910
     List:
+    - name: Ambience
+      guid: dbd90802d12f4b4ba7e215e74f07d872
+      id: 85412153
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 75f98e5e68f8964f9265ce7db92b872a
+      - ElementName: Ambience
+        ObjectType: 4
+        guid: dbd90802d12f4b4ba7e215e74f07d872
+      Path: Events\Default Work Unit\Ambience
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_AmbienceAmbient
+      guid: 7f5d3a7b4f17414f91040adf30071a7b
+      id: 749332978
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 75f98e5e68f8964f9265ce7db92b872a
+      - ElementName: Ambience
+        ObjectType: 4
+        guid: dbd90802d12f4b4ba7e215e74f07d872
+      - ElementName: Play_AmbienceAmbient
+        ObjectType: 3
+        guid: 7f5d3a7b4f17414f91040adf30071a7b
+      Path: Events\Default Work Unit\Ambience\Play_AmbienceAmbient
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_AmbienceReaktor
+      guid: 352ec88346471f47a4d30de65900fe03
+      id: 710899972
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 75f98e5e68f8964f9265ce7db92b872a
+      - ElementName: Ambience
+        ObjectType: 4
+        guid: dbd90802d12f4b4ba7e215e74f07d872
+      - ElementName: Play_AmbienceReaktor
+        ObjectType: 3
+        guid: 352ec88346471f47a4d30de65900fe03
+      Path: Events\Default Work Unit\Ambience\Play_AmbienceReaktor
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_AmbienceScreen
+      guid: 4bf48eeca1e030418123bed8d868bc4b
+      id: 2418175266
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 75f98e5e68f8964f9265ce7db92b872a
+      - ElementName: Ambience
+        ObjectType: 4
+        guid: dbd90802d12f4b4ba7e215e74f07d872
+      - ElementName: Play_AmbienceScreen
+        ObjectType: 3
+        guid: 4bf48eeca1e030418123bed8d868bc4b
+      Path: Events\Default Work Unit\Ambience\Play_AmbienceScreen
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_AmbienceSparks
+      guid: 5678932b49adb04787a8f7bd9c7332fe
+      id: 402001844
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 75f98e5e68f8964f9265ce7db92b872a
+      - ElementName: Ambience
+        ObjectType: 4
+        guid: dbd90802d12f4b4ba7e215e74f07d872
+      - ElementName: Play_AmbienceSparks
+        ObjectType: 3
+        guid: 5678932b49adb04787a8f7bd9c7332fe
+      Path: Events\Default Work Unit\Ambience\Play_AmbienceSparks
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_AmbienceVentilation
+      guid: 519cda16cc84ec4baee81fa600fcf5cc
+      id: 2696715787
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 75f98e5e68f8964f9265ce7db92b872a
+      - ElementName: Ambience
+        ObjectType: 4
+        guid: dbd90802d12f4b4ba7e215e74f07d872
+      - ElementName: Play_AmbienceVentilation
+        ObjectType: 3
+        guid: 519cda16cc84ec4baee81fa600fcf5cc
+      Path: Events\Default Work Unit\Ambience\Play_AmbienceVentilation
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_RobotPlayerInit
       guid: 70cd77a1a5891a429adec15dda451d7e
       id: 2964951935
@@ -106,10 +223,13 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 75f98e5e68f8964f9265ce7db92b872a
+      - ElementName: Robot
+        ObjectType: 4
+        guid: 48a20eec37f04f41b0d7184ba5b59301
       - ElementName: Play_RobotPlayerInit
         ObjectType: 3
         guid: 70cd77a1a5891a429adec15dda451d7e
-      Path: Events\Default Work Unit\Play_RobotPlayerInit
+      Path: Events\Default Work Unit\Robot\Play_RobotPlayerInit
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -123,10 +243,13 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 75f98e5e68f8964f9265ce7db92b872a
+      - ElementName: Robot
+        ObjectType: 4
+        guid: 48a20eec37f04f41b0d7184ba5b59301
       - ElementName: Play_RobotPlayerStepsBack
         ObjectType: 3
         guid: 2097994715b42248b458d03a404df41e
-      Path: Events\Default Work Unit\Play_RobotPlayerStepsBack
+      Path: Events\Default Work Unit\Robot\Play_RobotPlayerStepsBack
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -140,10 +263,130 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 75f98e5e68f8964f9265ce7db92b872a
+      - ElementName: Robot
+        ObjectType: 4
+        guid: 48a20eec37f04f41b0d7184ba5b59301
       - ElementName: Play_RobotPlayerStepsFront
         ObjectType: 3
         guid: d4caa51138583a48bb8673762e548ff4
-      Path: Events\Default Work Unit\Play_RobotPlayerStepsFront
+      Path: Events\Default Work Unit\Robot\Play_RobotPlayerStepsFront
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Robot
+      guid: 48a20eec37f04f41b0d7184ba5b59301
+      id: 1930240631
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 75f98e5e68f8964f9265ce7db92b872a
+      - ElementName: Robot
+        ObjectType: 4
+        guid: 48a20eec37f04f41b0d7184ba5b59301
+      Path: Events\Default Work Unit\Robot
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_AmbienceAmbient
+      guid: d66dad63d9ba8c4989a084725196122b
+      id: 1597769144
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 75f98e5e68f8964f9265ce7db92b872a
+      - ElementName: Ambience
+        ObjectType: 4
+        guid: dbd90802d12f4b4ba7e215e74f07d872
+      - ElementName: Stop_AmbienceAmbient
+        ObjectType: 3
+        guid: d66dad63d9ba8c4989a084725196122b
+      Path: Events\Default Work Unit\Ambience\Stop_AmbienceAmbient
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_AmbienceReaktor
+      guid: 81f7e9a9efce6146b630ae0737931185
+      id: 999101730
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 75f98e5e68f8964f9265ce7db92b872a
+      - ElementName: Ambience
+        ObjectType: 4
+        guid: dbd90802d12f4b4ba7e215e74f07d872
+      - ElementName: Stop_AmbienceReaktor
+        ObjectType: 3
+        guid: 81f7e9a9efce6146b630ae0737931185
+      Path: Events\Default Work Unit\Ambience\Stop_AmbienceReaktor
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_AmbienceScreen
+      guid: 5ba830531ea6bd40b24ef4406def29d7
+      id: 2545376548
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 75f98e5e68f8964f9265ce7db92b872a
+      - ElementName: Ambience
+        ObjectType: 4
+        guid: dbd90802d12f4b4ba7e215e74f07d872
+      - ElementName: Stop_AmbienceScreen
+        ObjectType: 3
+        guid: 5ba830531ea6bd40b24ef4406def29d7
+      Path: Events\Default Work Unit\Ambience\Stop_AmbienceScreen
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_AmbienceSparks
+      guid: c0c0727ae5140945aeb900760c2e304e
+      id: 4258779222
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 75f98e5e68f8964f9265ce7db92b872a
+      - ElementName: Ambience
+        ObjectType: 4
+        guid: dbd90802d12f4b4ba7e215e74f07d872
+      - ElementName: Stop_AmbienceSparks
+        ObjectType: 3
+        guid: c0c0727ae5140945aeb900760c2e304e
+      Path: Events\Default Work Unit\Ambience\Stop_AmbienceSparks
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_AmbienceVentilation
+      guid: e069385100a5f544b8d91efbf6bbb5fa
+      id: 3336638161
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 75f98e5e68f8964f9265ce7db92b872a
+      - ElementName: Ambience
+        ObjectType: 4
+        guid: dbd90802d12f4b4ba7e215e74f07d872
+      - ElementName: Stop_AmbienceVentilation
+        ObjectType: 3
+        guid: e069385100a5f544b8d91efbf6bbb5fa
+      Path: Events\Default Work Unit\Ambience\Stop_AmbienceVentilation
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -157,10 +400,13 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 75f98e5e68f8964f9265ce7db92b872a
+      - ElementName: Robot
+        ObjectType: 4
+        guid: 48a20eec37f04f41b0d7184ba5b59301
       - ElementName: Stop_RobotPlayerInit
         ObjectType: 3
         guid: 3532f8fa58c52c4d8d5f01d6f19d3786
-      Path: Events\Default Work Unit\Stop_RobotPlayerInit
+      Path: Events\Default Work Unit\Robot\Stop_RobotPlayerInit
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -220,7 +466,7 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8585155562802643164
     List: []
-  ExpandedFileSystemItemIds: 02000000030000000c0000000d000000
+  ExpandedFileSystemItemIds: 02000000030000000400000005000000060000000c0000000d000000
   ExpandedWaapiItemIds: 02000000030000000c0000000d000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
