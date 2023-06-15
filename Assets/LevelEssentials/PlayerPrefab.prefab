@@ -71,7 +71,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jumpHeight: 4
-  playerSpeed: 3
+  playerSpeed: 5
   rb: {fileID: 2822108461262458592}
   sensitivity: 1
   playerModel: {fileID: 5007722249268900550}

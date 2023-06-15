@@ -141,9 +141,11 @@ public class PlayerController : MonoBehaviour
             rb.mass = 1;
             rb.useGravity = true;
             gameObject.transform.parent = null;
+            //rb.AddForce(Vector3.up * (jumpHeight*2), ForceMode.Impulse);
             rb.AddForce(rawDirection.normalized * newAttractionStrength* playerSpeed*3, ForceMode.Impulse);
             gameObject.GetComponent<Collider>().enabled = true;
             merged = false;
+           
             return;
         }
         rb.AddForce(rawDirection.normalized * newAttractionStrength * playerSpeed*3, ForceMode.Force);
