@@ -22,7 +22,7 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{82B1FBE6-41F8-0ACB-4D84-2F3DB48F88FC}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{13C14144-9A9F-C1BF-F6CF-5F86B28C40AC}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -440,11 +440,92 @@
 						<MediaRef Id="961828617"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1597769144" Name="Stop_AmbienceAmbient" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="999101730" Name="Stop_AmbienceReaktor" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="2545376548" Name="Stop_AmbienceScreen" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="4258779222" Name="Stop_AmbienceSparks" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="3336638161" Name="Stop_AmbienceVentilation" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="1597769144" Name="Stop_AmbienceAmbient" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<MediaRefs>
+						<MediaRef Id="13611685"/>
+						<MediaRef Id="150343890"/>
+						<MediaRef Id="176281523"/>
+						<MediaRef Id="182154612"/>
+						<MediaRef Id="248899032"/>
+						<MediaRef Id="291988224"/>
+						<MediaRef Id="348777844"/>
+						<MediaRef Id="362474434"/>
+						<MediaRef Id="466478716"/>
+						<MediaRef Id="522059015"/>
+						<MediaRef Id="542679026"/>
+						<MediaRef Id="556471489"/>
+						<MediaRef Id="604714435"/>
+						<MediaRef Id="667635932"/>
+						<MediaRef Id="691247093"/>
+						<MediaRef Id="699418511"/>
+						<MediaRef Id="711486350"/>
+						<MediaRef Id="835411629"/>
+						<MediaRef Id="848383019"/>
+						<MediaRef Id="882672927"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="999101730" Name="Stop_AmbienceReaktor" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<MediaRefs>
+						<MediaRef Id="129036719"/>
+						<MediaRef Id="187991992"/>
+						<MediaRef Id="199634860"/>
+						<MediaRef Id="261577083"/>
+						<MediaRef Id="273812381"/>
+						<MediaRef Id="327786044"/>
+						<MediaRef Id="349734218"/>
+						<MediaRef Id="469567895"/>
+						<MediaRef Id="476974810"/>
+						<MediaRef Id="494585843"/>
+						<MediaRef Id="667211921"/>
+						<MediaRef Id="708729668"/>
+						<MediaRef Id="751903925"/>
+						<MediaRef Id="783511499"/>
+						<MediaRef Id="887399351"/>
+						<MediaRef Id="972510114"/>
+						<MediaRef Id="980243057"/>
+						<MediaRef Id="1009802369"/>
+						<MediaRef Id="1022100111"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2545376548" Name="Stop_AmbienceScreen" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<MediaRefs>
+						<MediaRef Id="66655716"/>
+						<MediaRef Id="264470358"/>
+						<MediaRef Id="403557854"/>
+						<MediaRef Id="524443531"/>
+						<MediaRef Id="527051756"/>
+						<MediaRef Id="579172165"/>
+						<MediaRef Id="597017167"/>
+						<MediaRef Id="626537197"/>
+						<MediaRef Id="746460238"/>
+						<MediaRef Id="761661332"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4258779222" Name="Stop_AmbienceSparks" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<MediaRefs>
+						<MediaRef Id="1495392"/>
+						<MediaRef Id="18562944"/>
+						<MediaRef Id="510370157"/>
+						<MediaRef Id="616810134"/>
+						<MediaRef Id="649796209"/>
+						<MediaRef Id="966196738"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3336638161" Name="Stop_AmbienceVentilation" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<MediaRefs>
+						<MediaRef Id="29291154"/>
+						<MediaRef Id="49852240"/>
+						<MediaRef Id="90511872"/>
+						<MediaRef Id="292365390"/>
+						<MediaRef Id="305029268"/>
+						<MediaRef Id="496898771"/>
+						<MediaRef Id="510372808"/>
+						<MediaRef Id="656232252"/>
+						<MediaRef Id="768075967"/>
+						<MediaRef Id="833305976"/>
+						<MediaRef Id="960269908"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1686535073" Name="Stop_RobotPlayerInit" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
 					<MediaRefs>
 						<MediaRef Id="326419658"/>
@@ -453,5 +534,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{F6478E98-149A-91FF-C555-D38256897E2A}</FileHash>
+	<FileHash>{EE5982CF-F4EB-FDD2-F6C9-D7E5108EB35C}</FileHash>
 </SoundBanksInfo>
