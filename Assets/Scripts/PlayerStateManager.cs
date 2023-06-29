@@ -108,6 +108,10 @@ public class PlayerStateManager : MonoBehaviour
 
     public GameObject OnTriggerEnter(Collider other)
     {
+        if (secondPlayer == null)
+        {
+            return null;
+        }
 
         secondPlayer = other.gameObject;
 
@@ -123,6 +127,10 @@ public class PlayerStateManager : MonoBehaviour
     
     public void OnTriggerExit(Collider other)
     {
+        if (secondPlayer == null)
+        {
+            return;
+        }
         if (other.gameObject.GetComponent<PlayerDetails>().playerID != this.GetComponent<PlayerDetails>().playerID)
         {
             inRange = false;
