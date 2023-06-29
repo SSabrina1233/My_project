@@ -22,37 +22,277 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{87A67BA1-81C3-876B-0988-CDE86BE8435D}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{0B9857B3-0303-5B1F-91F7-F1404170610A}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
+				<File Id="1495392" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voltage Sparks-003.wav</ShortName>
+					<CachePath>SFX/Voltage Sparks-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="13611685" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ambience factory layer-011.wav</ShortName>
+					<CachePath>SFX/ambience factory layer-011_10C4C929.wem</CachePath>
+				</File>
+				<File Id="18562944" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voltage Sparks-006.wav</ShortName>
+					<CachePath>SFX/Voltage Sparks-006_10C4C929.wem</CachePath>
+				</File>
+				<File Id="29291154" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>VentilationHum-001.wav</ShortName>
+					<CachePath>SFX/VentilationHum-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="49852240" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>VentilationHum-009.wav</ShortName>
+					<CachePath>SFX/VentilationHum-009_10C4C929.wem</CachePath>
+				</File>
+				<File Id="66655716" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Screenhum2-008.wav</ShortName>
+					<CachePath>SFX/Screenhum2-008_10C4C929.wem</CachePath>
+				</File>
+				<File Id="90511872" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>VentilationHum-007.wav</ShortName>
+					<CachePath>SFX/VentilationHum-007_10C4C929.wem</CachePath>
+				</File>
 				<File Id="124479139" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>RobotStepsBack-001.wav</ShortName>
 					<CachePath>SFX/RobotStepsBack-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="129036719" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Reaktor Layer-005.wav</ShortName>
+					<CachePath>SFX/Reaktor Layer-005_10C4C929.wem</CachePath>
 				</File>
 				<File Id="134654601" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>RobotStepsBack-002.wav</ShortName>
 					<CachePath>SFX/RobotStepsBack-002_10C4C929.wem</CachePath>
 				</File>
+				<File Id="150343890" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ambience factory layer-004.wav</ShortName>
+					<CachePath>SFX/ambience factory layer-004_10C4C929.wem</CachePath>
+				</File>
 				<File Id="165584015" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>RobotStepsBack-003.wav</ShortName>
 					<CachePath>SFX/RobotStepsBack-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="176281523" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ambience Factory -002.wav</ShortName>
+					<CachePath>SFX/Ambience Factory -002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="182154612" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ambience Factory -004.wav</ShortName>
+					<CachePath>SFX/Ambience Factory -004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="187991992" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Reaktor Layer-008.wav</ShortName>
+					<CachePath>SFX/Reaktor Layer-008_10C4C929.wem</CachePath>
+				</File>
+				<File Id="199634860" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Reaktor main-008.wav</ShortName>
+					<CachePath>SFX/Reaktor main-008_10C4C929.wem</CachePath>
 				</File>
 				<File Id="237786571" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>RobotStepsFront-006.wav</ShortName>
 					<CachePath>SFX/RobotStepsFront-006_10C4C929.wem</CachePath>
 				</File>
+				<File Id="248899032" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ambience factory layer-008.wav</ShortName>
+					<CachePath>SFX/ambience factory layer-008_10C4C929.wem</CachePath>
+				</File>
+				<File Id="261577083" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Reaktor Layer-003.wav</ShortName>
+					<CachePath>SFX/Reaktor Layer-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="264470358" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Screenhum2-006.wav</ShortName>
+					<CachePath>SFX/Screenhum2-006_10C4C929.wem</CachePath>
+				</File>
+				<File Id="273812381" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Reaktor Layer-002.wav</ShortName>
+					<CachePath>SFX/Reaktor Layer-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="291988224" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ambience Factory -001.wav</ShortName>
+					<CachePath>SFX/Ambience Factory -001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="292365390" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>VentilationHum-011.wav</ShortName>
+					<CachePath>SFX/VentilationHum-011_10C4C929.wem</CachePath>
+				</File>
+				<File Id="305029268" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>VentilationHum-006.wav</ShortName>
+					<CachePath>SFX/VentilationHum-006_10C4C929.wem</CachePath>
+				</File>
 				<File Id="326419658" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>RobotInit-001.wav</ShortName>
 					<CachePath>SFX/RobotInit-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="327786044" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Reaktor main-002.wav</ShortName>
+					<CachePath>SFX/Reaktor main-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="348777844" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ambience Factory -009.wav</ShortName>
+					<CachePath>SFX/Ambience Factory -009_10C4C929.wem</CachePath>
+				</File>
+				<File Id="349734218" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Reaktor Layer-007.wav</ShortName>
+					<CachePath>SFX/Reaktor Layer-007_10C4C929.wem</CachePath>
+				</File>
+				<File Id="362474434" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ambience factory layer-001.wav</ShortName>
+					<CachePath>SFX/ambience factory layer-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="403557854" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Screenhum2-001.wav</ShortName>
+					<CachePath>SFX/Screenhum2-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="466478716" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ambience factory layer-005.wav</ShortName>
+					<CachePath>SFX/ambience factory layer-005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="469567895" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Reaktor main-004.wav</ShortName>
+					<CachePath>SFX/Reaktor main-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="476974810" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Reaktor Layer-011.wav</ShortName>
+					<CachePath>SFX/Reaktor Layer-011_10C4C929.wem</CachePath>
+				</File>
+				<File Id="494585843" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Reaktor main-003.wav</ShortName>
+					<CachePath>SFX/Reaktor main-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="496898771" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>VentilationHum-005.wav</ShortName>
+					<CachePath>SFX/VentilationHum-005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="510370157" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voltage Sparks-005.wav</ShortName>
+					<CachePath>SFX/Voltage Sparks-005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="510372808" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>VentilationHum-008.wav</ShortName>
+					<CachePath>SFX/VentilationHum-008_10C4C929.wem</CachePath>
 				</File>
 				<File Id="517479125" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>RobotStepsFront-003.wav</ShortName>
 					<CachePath>SFX/RobotStepsFront-003_10C4C929.wem</CachePath>
 				</File>
+				<File Id="522059015" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ambience Factory -005.wav</ShortName>
+					<CachePath>SFX/Ambience Factory -005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="524443531" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Screenhum2-007.wav</ShortName>
+					<CachePath>SFX/Screenhum2-007_10C4C929.wem</CachePath>
+				</File>
+				<File Id="527051756" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Screenhum2-002.wav</ShortName>
+					<CachePath>SFX/Screenhum2-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="542679026" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ambience factory layer-002.wav</ShortName>
+					<CachePath>SFX/ambience factory layer-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="556471489" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ambience factory layer-003.wav</ShortName>
+					<CachePath>SFX/ambience factory layer-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="579172165" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Screenhum2-003.wav</ShortName>
+					<CachePath>SFX/Screenhum2-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="597017167" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Screenhum2-005.wav</ShortName>
+					<CachePath>SFX/Screenhum2-005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="604714435" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ambience Factory -006.wav</ShortName>
+					<CachePath>SFX/Ambience Factory -006_10C4C929.wem</CachePath>
+				</File>
+				<File Id="616810134" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voltage Sparks-001.wav</ShortName>
+					<CachePath>SFX/Voltage Sparks-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="626537197" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Screenhum2-010.wav</ShortName>
+					<CachePath>SFX/Screenhum2-010_10C4C929.wem</CachePath>
+				</File>
+				<File Id="649796209" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voltage Sparks-002.wav</ShortName>
+					<CachePath>SFX/Voltage Sparks-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="656232252" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>VentilationHum-003.wav</ShortName>
+					<CachePath>SFX/VentilationHum-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="667211921" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Reaktor Layer-010.wav</ShortName>
+					<CachePath>SFX/Reaktor Layer-010_10C4C929.wem</CachePath>
+				</File>
+				<File Id="667635932" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ambience factory layer-009.wav</ShortName>
+					<CachePath>SFX/ambience factory layer-009_10C4C929.wem</CachePath>
+				</File>
+				<File Id="691247093" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ambience factory layer-006.wav</ShortName>
+					<CachePath>SFX/ambience factory layer-006_10C4C929.wem</CachePath>
+				</File>
+				<File Id="699418511" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ambience factory layer-007.wav</ShortName>
+					<CachePath>SFX/ambience factory layer-007_10C4C929.wem</CachePath>
+				</File>
+				<File Id="708729668" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Reaktor main-005.wav</ShortName>
+					<CachePath>SFX/Reaktor main-005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="711486350" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ambience Factory -008.wav</ShortName>
+					<CachePath>SFX/Ambience Factory -008_10C4C929.wem</CachePath>
+				</File>
+				<File Id="746460238" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Screenhum2-004.wav</ShortName>
+					<CachePath>SFX/Screenhum2-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="751903925" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Reaktor main-006.wav</ShortName>
+					<CachePath>SFX/Reaktor main-006_10C4C929.wem</CachePath>
+				</File>
+				<File Id="761661332" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Screenhum2-009.wav</ShortName>
+					<CachePath>SFX/Screenhum2-009_10C4C929.wem</CachePath>
+				</File>
+				<File Id="768075967" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>VentilationHum-004.wav</ShortName>
+					<CachePath>SFX/VentilationHum-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="783511499" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Reaktor Layer-006.wav</ShortName>
+					<CachePath>SFX/Reaktor Layer-006_10C4C929.wem</CachePath>
+				</File>
+				<File Id="833305976" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>VentilationHum-010.wav</ShortName>
+					<CachePath>SFX/VentilationHum-010_10C4C929.wem</CachePath>
+				</File>
+				<File Id="835411629" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ambience factory layer-010.wav</ShortName>
+					<CachePath>SFX/ambience factory layer-010_10C4C929.wem</CachePath>
+				</File>
+				<File Id="848383019" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ambience Factory -003.wav</ShortName>
+					<CachePath>SFX/Ambience Factory -003_10C4C929.wem</CachePath>
+				</File>
 				<File Id="866086947" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>RobotStepsFront-002.wav</ShortName>
 					<CachePath>SFX/RobotStepsFront-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="882672927" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ambience Factory -007.wav</ShortName>
+					<CachePath>SFX/Ambience Factory -007_10C4C929.wem</CachePath>
+				</File>
+				<File Id="887399351" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Reaktor Layer-009.wav</ShortName>
+					<CachePath>SFX/Reaktor Layer-009_10C4C929.wem</CachePath>
 				</File>
 				<File Id="911859099" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>RobotStepsFront-005.wav</ShortName>
@@ -62,25 +302,135 @@
 					<ShortName>RobotStepsFront-001.wav</ShortName>
 					<CachePath>SFX/RobotStepsFront-001_10C4C929.wem</CachePath>
 				</File>
+				<File Id="960269908" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>VentilationHum-002.wav</ShortName>
+					<CachePath>SFX/VentilationHum-002_10C4C929.wem</CachePath>
+				</File>
 				<File Id="961828617" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>RobotStepsFront-004.wav</ShortName>
 					<CachePath>SFX/RobotStepsFront-004_10C4C929.wem</CachePath>
 				</File>
+				<File Id="966196738" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voltage Sparks-004.wav</ShortName>
+					<CachePath>SFX/Voltage Sparks-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="972510114" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Reaktor main-007.wav</ShortName>
+					<CachePath>SFX/Reaktor main-007_10C4C929.wem</CachePath>
+				</File>
+				<File Id="980243057" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Reaktor Layer-004.wav</ShortName>
+					<CachePath>SFX/Reaktor Layer-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1009802369" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Reaktor Layer-001.wav</ShortName>
+					<CachePath>SFX/Reaktor Layer-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1022100111" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Reaktor main-001.wav</ShortName>
+					<CachePath>SFX/Reaktor main-001_10C4C929.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
-				<Event Id="2964951935" Name="Play_RobotPlayerInit" DurationType="OneShot" DurationMin="3.0735745" DurationMax="4.47923">
+				<Event Id="749332978" Name="Play_AmbienceAmbient" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="13611685"/>
+						<MediaRef Id="150343890"/>
+						<MediaRef Id="176281523"/>
+						<MediaRef Id="182154612"/>
+						<MediaRef Id="248899032"/>
+						<MediaRef Id="291988224"/>
+						<MediaRef Id="348777844"/>
+						<MediaRef Id="362474434"/>
+						<MediaRef Id="466478716"/>
+						<MediaRef Id="522059015"/>
+						<MediaRef Id="542679026"/>
+						<MediaRef Id="556471489"/>
+						<MediaRef Id="604714435"/>
+						<MediaRef Id="667635932"/>
+						<MediaRef Id="691247093"/>
+						<MediaRef Id="699418511"/>
+						<MediaRef Id="711486350"/>
+						<MediaRef Id="835411629"/>
+						<MediaRef Id="848383019"/>
+						<MediaRef Id="882672927"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="710899972" Name="Play_AmbienceReaktor" MaxAttenuation="40" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="129036719"/>
+						<MediaRef Id="187991992"/>
+						<MediaRef Id="199634860"/>
+						<MediaRef Id="261577083"/>
+						<MediaRef Id="273812381"/>
+						<MediaRef Id="327786044"/>
+						<MediaRef Id="349734218"/>
+						<MediaRef Id="469567895"/>
+						<MediaRef Id="476974810"/>
+						<MediaRef Id="494585843"/>
+						<MediaRef Id="667211921"/>
+						<MediaRef Id="708729668"/>
+						<MediaRef Id="751903925"/>
+						<MediaRef Id="783511499"/>
+						<MediaRef Id="887399351"/>
+						<MediaRef Id="972510114"/>
+						<MediaRef Id="980243057"/>
+						<MediaRef Id="1009802369"/>
+						<MediaRef Id="1022100111"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2418175266" Name="Play_AmbienceScreen" MaxAttenuation="40" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="66655716"/>
+						<MediaRef Id="264470358"/>
+						<MediaRef Id="403557854"/>
+						<MediaRef Id="524443531"/>
+						<MediaRef Id="527051756"/>
+						<MediaRef Id="579172165"/>
+						<MediaRef Id="597017167"/>
+						<MediaRef Id="626537197"/>
+						<MediaRef Id="746460238"/>
+						<MediaRef Id="761661332"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="402001844" Name="Play_AmbienceSparks" MaxAttenuation="40" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="1495392"/>
+						<MediaRef Id="18562944"/>
+						<MediaRef Id="510370157"/>
+						<MediaRef Id="616810134"/>
+						<MediaRef Id="649796209"/>
+						<MediaRef Id="966196738"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2696715787" Name="Play_AmbienceVentilation" MaxAttenuation="40" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="29291154"/>
+						<MediaRef Id="49852240"/>
+						<MediaRef Id="90511872"/>
+						<MediaRef Id="292365390"/>
+						<MediaRef Id="305029268"/>
+						<MediaRef Id="496898771"/>
+						<MediaRef Id="510372808"/>
+						<MediaRef Id="656232252"/>
+						<MediaRef Id="768075967"/>
+						<MediaRef Id="833305976"/>
+						<MediaRef Id="960269908"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2964951935" Name="Play_RobotPlayerInit" MaxAttenuation="30" DurationType="OneShot" DurationMin="3.6508965" DurationMax="3.7600474">
 					<MediaRefs>
 						<MediaRef Id="326419658"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="42366423" Name="Play_RobotPlayerStepsBack" DurationType="OneShot" DurationMin="0.04011093" DurationMax="0.10248269">
+				<Event Id="42366423" Name="Play_RobotPlayerStepsBack" MaxAttenuation="30" DurationType="OneShot" DurationMin="0.04011093" DurationMax="0.10248269">
 					<MediaRefs>
 						<MediaRef Id="124479139"/>
 						<MediaRef Id="134654601"/>
 						<MediaRef Id="165584015"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2892171835" Name="Play_RobotPlayerStepsFront" DurationType="OneShot" DurationMin="0.10992268" DurationMax="0.20928872">
+				<Event Id="2892171835" Name="Play_RobotPlayerStepsFront" MaxAttenuation="30" DurationType="OneShot" DurationMin="0.10992268" DurationMax="0.20928872">
 					<MediaRefs>
 						<MediaRef Id="237786571"/>
 						<MediaRef Id="517479125"/>
@@ -90,9 +440,99 @@
 						<MediaRef Id="961828617"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1686535073" Name="Stop_RobotPlayerInit" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="1597769144" Name="Stop_AmbienceAmbient" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<MediaRefs>
+						<MediaRef Id="13611685"/>
+						<MediaRef Id="150343890"/>
+						<MediaRef Id="176281523"/>
+						<MediaRef Id="182154612"/>
+						<MediaRef Id="248899032"/>
+						<MediaRef Id="291988224"/>
+						<MediaRef Id="348777844"/>
+						<MediaRef Id="362474434"/>
+						<MediaRef Id="466478716"/>
+						<MediaRef Id="522059015"/>
+						<MediaRef Id="542679026"/>
+						<MediaRef Id="556471489"/>
+						<MediaRef Id="604714435"/>
+						<MediaRef Id="667635932"/>
+						<MediaRef Id="691247093"/>
+						<MediaRef Id="699418511"/>
+						<MediaRef Id="711486350"/>
+						<MediaRef Id="835411629"/>
+						<MediaRef Id="848383019"/>
+						<MediaRef Id="882672927"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="999101730" Name="Stop_AmbienceReaktor" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<MediaRefs>
+						<MediaRef Id="129036719"/>
+						<MediaRef Id="187991992"/>
+						<MediaRef Id="199634860"/>
+						<MediaRef Id="261577083"/>
+						<MediaRef Id="273812381"/>
+						<MediaRef Id="327786044"/>
+						<MediaRef Id="349734218"/>
+						<MediaRef Id="469567895"/>
+						<MediaRef Id="476974810"/>
+						<MediaRef Id="494585843"/>
+						<MediaRef Id="667211921"/>
+						<MediaRef Id="708729668"/>
+						<MediaRef Id="751903925"/>
+						<MediaRef Id="783511499"/>
+						<MediaRef Id="887399351"/>
+						<MediaRef Id="972510114"/>
+						<MediaRef Id="980243057"/>
+						<MediaRef Id="1009802369"/>
+						<MediaRef Id="1022100111"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2545376548" Name="Stop_AmbienceScreen" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<MediaRefs>
+						<MediaRef Id="66655716"/>
+						<MediaRef Id="264470358"/>
+						<MediaRef Id="403557854"/>
+						<MediaRef Id="524443531"/>
+						<MediaRef Id="527051756"/>
+						<MediaRef Id="579172165"/>
+						<MediaRef Id="597017167"/>
+						<MediaRef Id="626537197"/>
+						<MediaRef Id="746460238"/>
+						<MediaRef Id="761661332"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4258779222" Name="Stop_AmbienceSparks" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<MediaRefs>
+						<MediaRef Id="1495392"/>
+						<MediaRef Id="18562944"/>
+						<MediaRef Id="510370157"/>
+						<MediaRef Id="616810134"/>
+						<MediaRef Id="649796209"/>
+						<MediaRef Id="966196738"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3336638161" Name="Stop_AmbienceVentilation" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<MediaRefs>
+						<MediaRef Id="29291154"/>
+						<MediaRef Id="49852240"/>
+						<MediaRef Id="90511872"/>
+						<MediaRef Id="292365390"/>
+						<MediaRef Id="305029268"/>
+						<MediaRef Id="496898771"/>
+						<MediaRef Id="510372808"/>
+						<MediaRef Id="656232252"/>
+						<MediaRef Id="768075967"/>
+						<MediaRef Id="833305976"/>
+						<MediaRef Id="960269908"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1686535073" Name="Stop_RobotPlayerInit" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<MediaRefs>
+						<MediaRef Id="326419658"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{3DD27AB0-512C-418B-395E-98F8E49FA2F2}</FileHash>
+	<FileHash>{EAED7C3E-4DBF-5ABB-6956-F5DA6337BAB0}</FileHash>
 </SoundBanksInfo>
